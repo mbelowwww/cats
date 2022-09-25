@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <div className='button-getting-cat-facts-wrapper'>
         <Button onClick={() => fetchFacts()}
-        > Получить рандомный факт</Button>
+        > Get random facts</Button>
       </div>
       <CatFactsTable fact={catFact?.fact} length={catFact?.length}></CatFactsTable>
     </div>
