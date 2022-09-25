@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button-getting-cat-facts-wrapper {
+  padding: 26px 16px 16px;
+  background: rgb(190, 200, 200);
+}
+
+.button-getting-cat-facts {
+  color: #282c34;
+}
