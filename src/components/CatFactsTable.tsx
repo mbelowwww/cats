@@ -1,4 +1,5 @@
 import {ICatFact} from "../interface/CatFacts";
+import {Card} from "antd";
 
 export const CatFactsTable = (
   {
@@ -7,11 +8,12 @@ export const CatFactsTable = (
 
   return (
     <div>
-      <h1>Fact:</h1>
-      <h1>{fact}</h1>
-      <br/>
-      <h1>Length:</h1>
-      <h1>{length?.toString()}</h1>
+      <Card
+        title={length?.toString()}
+        size='small'
+      >
+        {fact}
+      </Card>
     </div>
   )
 }
